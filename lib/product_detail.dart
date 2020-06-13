@@ -3,7 +3,7 @@ import 'dart:ui' as ui;
 
 class ProductDetail extends StatelessWidget {
   final productdata;
-  var image_url = 'https://image.tmdb.org/t/p/w500/';
+  var image_url = '';
   ProductDetail(this.productdata);
   Color mainColor = const Color(0xff3C3261);
 
